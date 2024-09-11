@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../01_app_hyis_ptc0808.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../01_app_hyis_ptc0808.gen/sources_1/bd/design_1/ipshared/3007/hdl" --include "F:/Xilinx/Vivado/2021.2/data/xilinx_vip/include" \
+"../../../../01_app_hyis_ptc0808.gen/sources_1/ip/ila_2/sim/ila_2.v" \
+"../../../../01_app_hyis_ptc0808.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" \
+"../../../../01_app_hyis_ptc0808.gen/sources_1/ip/ila_1/sim/ila_1.v" \
+"../../../../01_app_hyis_ptc0808.srcs/sources_1/new/spi_process.v" \
+"../../../../01_app_hyis_ptc0808.srcs/sources_1/new/spi_receive.v" \
+"../../../../01_app_hyis_ptc0808.srcs/sources_1/new/spi_send.v" \
+"../../../../01_app_hyis_ptc0808.srcs/sim_1/new/tb_spi_process.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

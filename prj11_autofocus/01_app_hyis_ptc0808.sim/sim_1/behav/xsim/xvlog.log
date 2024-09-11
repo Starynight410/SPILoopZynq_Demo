@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ZynqSpi_Demo/prj11_autofocus/01_app_hyis_ptc0808.gen/sources_1/ip/ila_2/sim/ila_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ZynqSpi_Demo/prj11_autofocus/01_app_hyis_ptc0808.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ZynqSpi_Demo/prj11_autofocus/01_app_hyis_ptc0808.gen/sources_1/ip/ila_1/sim/ila_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ZynqSpi_Demo/prj11_autofocus/01_app_hyis_ptc0808.srcs/sources_1/new/spi_process.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_process
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ZynqSpi_Demo/prj11_autofocus/01_app_hyis_ptc0808.srcs/sources_1/new/spi_receive.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_receive
+INFO: [VRFC 10-2458] undeclared symbol sclk_posedge, assumed default net type wire [E:/ZynqSpi_Demo/prj11_autofocus/01_app_hyis_ptc0808.srcs/sources_1/new/spi_receive.v:75]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ZynqSpi_Demo/prj11_autofocus/01_app_hyis_ptc0808.srcs/sources_1/new/spi_send.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_send
+WARNING: [VRFC 10-3380] identifier 'rd_t_en' is used before its declaration [E:/ZynqSpi_Demo/prj11_autofocus/01_app_hyis_ptc0808.srcs/sources_1/new/spi_send.v:75]
+WARNING: [VRFC 10-3380] identifier 'data_fifo_out' is used before its declaration [E:/ZynqSpi_Demo/prj11_autofocus/01_app_hyis_ptc0808.srcs/sources_1/new/spi_send.v:79]
+WARNING: [VRFC 10-3380] identifier 'data_fifo_delay' is used before its declaration [E:/ZynqSpi_Demo/prj11_autofocus/01_app_hyis_ptc0808.srcs/sources_1/new/spi_send.v:114]
+WARNING: [VRFC 10-3380] identifier 'data_fifo_delay' is used before its declaration [E:/ZynqSpi_Demo/prj11_autofocus/01_app_hyis_ptc0808.srcs/sources_1/new/spi_send.v:115]
+WARNING: [VRFC 10-3380] identifier 'data_fifo_delay' is used before its declaration [E:/ZynqSpi_Demo/prj11_autofocus/01_app_hyis_ptc0808.srcs/sources_1/new/spi_send.v:116]
+WARNING: [VRFC 10-3380] identifier 'data_fifo_delay' is used before its declaration [E:/ZynqSpi_Demo/prj11_autofocus/01_app_hyis_ptc0808.srcs/sources_1/new/spi_send.v:122]
+INFO: [VRFC 10-311] analyzing module counter_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/ZynqSpi_Demo/prj11_autofocus/01_app_hyis_ptc0808.srcs/sim_1/new/tb_spi_process.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_spi_process
+INFO: [VRFC 10-2458] undeclared symbol sclk_1_fan, assumed default net type wire [E:/ZynqSpi_Demo/prj11_autofocus/01_app_hyis_ptc0808.srcs/sim_1/new/tb_spi_process.v:107]

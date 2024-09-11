@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_spi_process_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_spi_process" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="101.000000 us"></ZoomEndTime>
+      <Cursor1Time time="101.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="158"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/tb_spi_process/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/mosi_7_0" type="array">
+      <obj_property name="ElementShortName">mosi_7_0[0:0]</obj_property>
+      <obj_property name="ObjectShortName">mosi_7_0[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/sclk_1" type="logic">
+      <obj_property name="ElementShortName">sclk_1</obj_property>
+      <obj_property name="ObjectShortName">sclk_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/cs_n" type="logic">
+      <obj_property name="ElementShortName">cs_n</obj_property>
+      <obj_property name="ObjectShortName">cs_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/u_spi_process/data_i" type="array">
+      <obj_property name="ElementShortName">data_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/u_spi_process/valid_i" type="logic">
+      <obj_property name="ElementShortName">valid_i</obj_property>
+      <obj_property name="ObjectShortName">valid_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/u_spi_process/data_o" type="array">
+      <obj_property name="ElementShortName">data_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/u_spi_process/valid_o" type="logic">
+      <obj_property name="ElementShortName">valid_o</obj_property>
+      <obj_property name="ObjectShortName">valid_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/SPI0_MISO_I" type="logic">
+      <obj_property name="ElementShortName">SPI0_MISO_I</obj_property>
+      <obj_property name="ObjectShortName">SPI0_MISO_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/SPI0_SCLK_I" type="logic">
+      <obj_property name="ElementShortName">SPI0_SCLK_I</obj_property>
+      <obj_property name="ObjectShortName">SPI0_SCLK_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/SPI0_SS_I" type="logic">
+      <obj_property name="ElementShortName">SPI0_SS_I</obj_property>
+      <obj_property name="ObjectShortName">SPI0_SS_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/u_spi_process/spi_send/sclk_o" type="logic">
+      <obj_property name="ElementShortName">sclk_o</obj_property>
+      <obj_property name="ObjectShortName">sclk_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/u_spi_process/spi_send/data_fifo_out" type="array">
+      <obj_property name="ElementShortName">data_fifo_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_fifo_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/u_spi_process/spi_send/data_i" type="array">
+      <obj_property name="ElementShortName">data_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/u_spi_process/spi_send/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/start_i" type="logic">
+      <obj_property name="ElementShortName">start_i</obj_property>
+      <obj_property name="ObjectShortName">start_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/u_spi_process/spi_send/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_spi_process/u_spi_process/spi_send/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+</wave_config>

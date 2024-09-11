@@ -1,0 +1,25 @@
+2024-08-06T16:13:47.984064700255-16:13:47 **** Build of configuration Debug for project xiicps_polled_slave_example_1 ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/xiicps_polled_slave_example.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xiicps_polled_slave_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/prj11_autofocus/01_app_hyis_ptc0808.sdk/Zynq7020_platform/export/Zynq7020_platform/sw/Zynq7020_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/xiicps_polled_slave_example.d" -MT"src/xiicps_polled_slave_example.o" -o "src/xiicps_polled_slave_example.o" "../src/xiicps_polled_slave_example.c"
+000-'Finished building: ../src/xiicps_polled_slave_example.c'
+000-' '
+000-'Building target: xiicps_polled_slave_example_1.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/prj11_autofocus/01_app_hyis_ptc0808.sdk/Zynq7020_platform/export/Zynq7020_platform/sw/Zynq7020_platform/standalone_domain/bsplib/lib -o "xiicps_polled_slave_example_1.elf"  ./src/xiicps_polled_slave_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: xiicps_polled_slave_example_1.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size xiicps_polled_slave_example_1.elf  |tee "xiicps_polled_slave_example_1.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  27332	   1160	  23144	  51636	   c9b4	xiicps_polled_slave_example_1.elf
+000-'Finished building: xiicps_polled_slave_example_1.elf.size'
+000-' '
+00255-
+16:13:48 Build Finished (took 834ms)
+

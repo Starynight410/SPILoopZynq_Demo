@@ -1,0 +1,25 @@
+16:27:31 **** Incremental Build of configuration Debug for project UartControllerPS ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/xuartns550_main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartns550_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IE:/ZynqSpi_Demo/prj11_autofocus/01_app_hyis_ptc0808.sdk/Zynq7020_platform/export/Zynq7020_platform/sw/Zynq7020_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/xuartns550_main.d" -MT"src/xuartns550_main.o" -o "src/xuartns550_main.o" "../src/xuartns550_main.c"
+'Finished building: ../src/xuartns550_main.c'
+' '
+'Building target: UartControllerPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/ZynqSpi_Demo/prj11_autofocus/01_app_hyis_ptc0808.sdk/Zynq7020_platform/export/Zynq7020_platform/sw/Zynq7020_platform/standalone_domain/bsplib/lib -o "UartControllerPS.elf"  ./src/I2C_func.o ./src/platform.o ./src/xuartns550_main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: UartControllerPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size UartControllerPS.elf  |tee "UartControllerPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42028	   1248	  23112	  66388	  10354	UartControllerPS.elf
+'Finished building: UartControllerPS.elf.size'
+' '
+
+16:27:32 Build Finished (took 891ms)
+

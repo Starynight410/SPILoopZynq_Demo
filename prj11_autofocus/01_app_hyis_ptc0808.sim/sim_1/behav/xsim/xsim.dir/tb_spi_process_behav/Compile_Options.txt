@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "fifo_generator_v13_2_6" -L "xilinx_vip" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "tb_spi_process_behav" "xil_defaultlib.tb_spi_process" "xil_defaultlib.glbl" -log "elaborate.log" 

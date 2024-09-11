@@ -1,0 +1,10 @@
+16:13:49 **** Build of configuration Debug for project xiicps_polled_slave_example_1_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 57629 E:/prj11_autofocus/01_app_hyis_ptc0808.sdk/Zynq7020_platform/export/Zynq7020_platform/Zynq7020_platform.xpfm standalone_domain E:/prj11_autofocus/01_app_hyis_ptc0808.sdk/xiicps_polled_slave_example_1_system/Debug/system.bif
+sdcard_gen --xpfm E:/prj11_autofocus/01_app_hyis_ptc0808.sdk/Zynq7020_platform/export/Zynq7020_platform/Zynq7020_platform.xpfm --sys_config Zynq7020_platform --bif E:/prj11_autofocus/01_app_hyis_ptc0808.sdk/xiicps_polled_slave_example_1_system/Debug/system.bif --bitstream E:/prj11_autofocus/01_app_hyis_ptc0808.sdk/xiicps_polled_slave_example_1/_ide/bitstream/IS_PTC_top.bit --elf E:/prj11_autofocus/01_app_hyis_ptc0808.sdk/xiicps_polled_slave_example_1/Debug/xiicps_polled_slave_example_1.elf,ps7_cortexa9_0
+creating BOOT.BIN using E:/prj11_autofocus/01_app_hyis_ptc0808.sdk/xiicps_polled_slave_example_1/_ide/bitstream/IS_PTC_top.bit
+Running F:/Xilinx/Vitis/2021.2/bin/bootgen  -image E:/prj11_autofocus/01_app_hyis_ptc0808.sdk/xiicps_polled_slave_example_1_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+16:13:54 Build Finished (took 5s.609ms)
+

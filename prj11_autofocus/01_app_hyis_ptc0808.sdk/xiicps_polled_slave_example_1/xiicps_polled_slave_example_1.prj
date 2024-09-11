@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="xiicps_polled_slave_example_1" location="E:/prj11_autofocus/01_app_hyis_ptc0808.sdk/xiicps_polled_slave_example_1" platform="E:/prj11_autofocus/01_app_hyis_ptc0808.sdk/Zynq7020_platform/export/Zynq7020_platform/Zynq7020_platform.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="xiicps_polled_slave_example_1_system" sysConfig="Zynq7020_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="453f8239bc47c3408f77e3ab65ab992a">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1281725344">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.2142524421" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>
