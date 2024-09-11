@@ -1,0 +1,2 @@
+# SPILoopZynq_Demo
+通过ZYNQ实现PS与PL端SPI交互，分别实现PS端SPI的master和slave模式，系统通过串口又上位机控制。
